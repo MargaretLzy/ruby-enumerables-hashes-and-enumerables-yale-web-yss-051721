@@ -6,7 +6,7 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
-   passengers.each do |suite, name|
+   birthday_kids.each do |name, age|
     if suite == :suite_a && name.start_with?("A")
       winner = name
     end
